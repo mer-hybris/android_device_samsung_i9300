@@ -1,4 +1,5 @@
-import init.smdk4x12.usb.rc
+# Let Mer handle USB subsystem
+# import init.smdk4x12.usb.rc
 
 on init
     mkdir /mnt/shell/emulated 0700 shell shell
