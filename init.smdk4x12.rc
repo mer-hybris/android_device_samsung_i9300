@@ -418,6 +418,7 @@ on property:ro.uart_debug=0
 # underlying files in /data/media wil be created with user and group media_rw (1023)
 service sdcard /system/bin/sdcard /data/media /mnt/shell/emulated 1023 1023
     class late_start
+    disabled # by Mer
 
 # icd
 service icd /system/bin/icd
